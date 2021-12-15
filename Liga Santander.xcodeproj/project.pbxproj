@@ -16,6 +16,7 @@
 		CBCBAF34276A18DF004319F2 /* Liga_SantanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF33276A18DF004319F2 /* Liga_SantanderTests.swift */; };
 		CBCBAF3E276A18DF004319F2 /* Liga_SantanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF3D276A18DF004319F2 /* Liga_SantanderUITests.swift */; };
 		CBCBAF40276A18DF004319F2 /* Liga_SantanderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF3F276A18DF004319F2 /* Liga_SantanderUITestsLaunchTests.swift */; };
+		CBCBAF4D276A66F5004319F2 /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF4C276A66F5004319F2 /* ViewControllerRegistro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CBCBAF39276A18DF004319F2 /* Liga SantanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Liga SantanderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCBAF3D276A18DF004319F2 /* Liga_SantanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liga_SantanderUITests.swift; sourceTree = "<group>"; };
 		CBCBAF3F276A18DF004319F2 /* Liga_SantanderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liga_SantanderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBCBAF4C276A66F5004319F2 /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CBCBAF1C276A18DF004319F2 /* AppDelegate.swift */,
 				CBCBAF1E276A18DF004319F2 /* SceneDelegate.swift */,
 				CBCBAF20276A18DF004319F2 /* ViewController.swift */,
+				CBCBAF4C276A66F5004319F2 /* ViewControllerRegistro.swift */,
 				CBCBAF22276A18DF004319F2 /* Main.storyboard */,
 				CBCBAF25276A18DF004319F2 /* Assets.xcassets */,
 				CBCBAF27276A18DF004319F2 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBCBAF21276A18DF004319F2 /* ViewController.swift in Sources */,
+				CBCBAF4D276A66F5004319F2 /* ViewControllerRegistro.swift in Sources */,
 				CBCBAF1D276A18DF004319F2 /* AppDelegate.swift in Sources */,
 				CBCBAF1F276A18DF004319F2 /* SceneDelegate.swift in Sources */,
 			);
