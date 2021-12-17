@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB6AC84C276CAB4A00D8EEFB /* ViewControllerEquipos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6AC84B276CAB4A00D8EEFB /* ViewControllerEquipos.swift */; };
+		CB6AC850276CAC7700D8EEFB /* TableViewControllerEquipos2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6AC84F276CAC7700D8EEFB /* TableViewControllerEquipos2.swift */; };
+		CB6AC852276CE99A00D8EEFB /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6AC851276CE99A00D8EEFB /* data.swift */; };
 		CBCBAF1D276A18DF004319F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF1C276A18DF004319F2 /* AppDelegate.swift */; };
 		CBCBAF1F276A18DF004319F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF1E276A18DF004319F2 /* SceneDelegate.swift */; };
 		CBCBAF21276A18DF004319F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF20276A18DF004319F2 /* ViewController.swift */; };
@@ -17,6 +20,7 @@
 		CBCBAF3E276A18DF004319F2 /* Liga_SantanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF3D276A18DF004319F2 /* Liga_SantanderUITests.swift */; };
 		CBCBAF40276A18DF004319F2 /* Liga_SantanderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF3F276A18DF004319F2 /* Liga_SantanderUITestsLaunchTests.swift */; };
 		CBCBAF4D276A66F5004319F2 /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF4C276A66F5004319F2 /* ViewControllerRegistro.swift */; };
+		CBCBAF4F276A6BF2004319F2 /* ViewControllerRegistro2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBAF4E276A6BF2004319F2 /* ViewControllerRegistro2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB6AC84B276CAB4A00D8EEFB /* ViewControllerEquipos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEquipos.swift; sourceTree = "<group>"; };
+		CB6AC84F276CAC7700D8EEFB /* TableViewControllerEquipos2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerEquipos2.swift; sourceTree = "<group>"; };
+		CB6AC851276CE99A00D8EEFB /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		CBCBAF19276A18DF004319F2 /* Liga Santander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liga Santander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCBAF1C276A18DF004319F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBCBAF1E276A18DF004319F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		CBCBAF3D276A18DF004319F2 /* Liga_SantanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liga_SantanderUITests.swift; sourceTree = "<group>"; };
 		CBCBAF3F276A18DF004319F2 /* Liga_SantanderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liga_SantanderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CBCBAF4C276A66F5004319F2 /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
+		CBCBAF4E276A6BF2004319F2 /* ViewControllerRegistro2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +112,12 @@
 				CBCBAF1C276A18DF004319F2 /* AppDelegate.swift */,
 				CBCBAF1E276A18DF004319F2 /* SceneDelegate.swift */,
 				CBCBAF20276A18DF004319F2 /* ViewController.swift */,
+				CB6AC84F276CAC7700D8EEFB /* TableViewControllerEquipos2.swift */,
+				CB6AC84B276CAB4A00D8EEFB /* ViewControllerEquipos.swift */,
 				CBCBAF4C276A66F5004319F2 /* ViewControllerRegistro.swift */,
+				CBCBAF4E276A6BF2004319F2 /* ViewControllerRegistro2.swift */,
 				CBCBAF22276A18DF004319F2 /* Main.storyboard */,
+				CB6AC851276CE99A00D8EEFB /* data.swift */,
 				CBCBAF25276A18DF004319F2 /* Assets.xcassets */,
 				CBCBAF27276A18DF004319F2 /* LaunchScreen.storyboard */,
 				CBCBAF2A276A18DF004319F2 /* Info.plist */,
@@ -261,10 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCBAF4F276A6BF2004319F2 /* ViewControllerRegistro2.swift in Sources */,
 				CBCBAF21276A18DF004319F2 /* ViewController.swift in Sources */,
+				CB6AC850276CAC7700D8EEFB /* TableViewControllerEquipos2.swift in Sources */,
 				CBCBAF4D276A66F5004319F2 /* ViewControllerRegistro.swift in Sources */,
+				CB6AC84C276CAB4A00D8EEFB /* ViewControllerEquipos.swift in Sources */,
 				CBCBAF1D276A18DF004319F2 /* AppDelegate.swift in Sources */,
 				CBCBAF1F276A18DF004319F2 /* SceneDelegate.swift in Sources */,
+				CB6AC852276CE99A00D8EEFB /* data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
