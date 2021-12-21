@@ -12,7 +12,7 @@ class TableViewControllerEquipos2: UITableViewController, XMLParserDelegate {
     var link = String()
     var nombreElemento = String()
     var parser: XMLParser = XMLParser()
-    let urlXML = "https://www.asociacionpodcast.es/feed"
+    var urlXML = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,7 +77,7 @@ class TableViewControllerEquipos2: UITableViewController, XMLParserDelegate {
         if segue.identifier=="irDetalle" {
             guard let celdaSeleccionada = miTabla.indexPathForSelectedRow?.row else { return }
             let postSeleccionado = posts[celdaSeleccionada]
-            let vistaDetalle = segue.destination as! ViewControllerEquipos
+            let vistaDetalle = segue.destination as! ViewControllerDetalleEquipos
             vistaDetalle.contenidoWeb = postSeleccionado.link
         }
     }
