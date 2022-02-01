@@ -20,6 +20,7 @@ class ViewControllerEquipos: UIViewController, WKNavigationDelegate {
     
     private func configureView(){
     }
+    
     @IBAction func realmadrid(_ sender: Any) {
         contenidoWeb = "https://as.com/tag/rss/real_madrid/a"
         performSegue(withIdentifier: "irTabla", sender: nil)
@@ -44,6 +45,7 @@ class ViewControllerEquipos: UIViewController, WKNavigationDelegate {
         contenidoWeb = "https://as.com/tag/rss/real_betis/a"
         performSegue(withIdentifier: "irTabla", sender: nil)
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier=="irTabla" {
             let vistaDetalle = segue.destination as! TableViewControllerEquipos2

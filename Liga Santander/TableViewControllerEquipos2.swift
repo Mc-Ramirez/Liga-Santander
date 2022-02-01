@@ -6,7 +6,6 @@ import UIKit
 
 class TableViewControllerEquipos2: UITableViewController, XMLParserDelegate {
     @IBOutlet var miTabla: UITableView!
-    
     var posts = [Post]()
     var titulo = String()
     var link = String()
